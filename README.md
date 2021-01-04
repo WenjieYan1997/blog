@@ -33,5 +33,4 @@
 ![iphone](https://user-images.githubusercontent.com/30201215/60588832-8e6d6780-9dca-11e9-84fa-f1d71510c81e.jpg)
 
 ## 运行指导
-- 由于本项目分为几个不同的分支，每个分支的功能是一样的，但是运行的方式不同，所以需要根据分支查看对应的运行wiki
-- 指导 wiki：https://github.com/Hopetree/izone/wiki
+- http://47.93.127.139/article/linux/
