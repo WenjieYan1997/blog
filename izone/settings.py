@@ -241,7 +241,7 @@ CACHES = {
 
 # 配置管理邮箱，服务出现故障会收到到邮件，环境变量值的格式：name|test@test.com 多组用户用英文逗号隔开
 ADMINS = []
-admin_email_user = os.getenv('IZONE_ADMIN_EMAIL_USER','Jier0|yanwenjie1997@163.com')
+admin_email_user = os.getenv('IZONE_ADMIN_EMAIL_USER','Jier0|yan@163.com')
 if admin_email_user:
     for each in admin_email_user.split(','):
         a_user, a_email = each.split('|')
@@ -249,8 +249,8 @@ if admin_email_user:
 
 # 邮箱配置
 EMAIL_HOST = os.getenv('IZONE_EMAIL_HOST', 'smtp.163.com')
-EMAIL_HOST_USER = os.getenv('IZONE_EMAIL_HOST_USER', 'yanwenjie1997@163.com')
-EMAIL_HOST_PASSWORD = os.getenv('IZONE_EMAIL_HOST_PASSWORD', 'BTHSVBTDJRABAUOJ')  # 这个不是邮箱密码，而是授权码
+EMAIL_HOST_USER = os.getenv('IZONE_EMAIL_HOST_USER', 'yan@163.com')
+EMAIL_HOST_PASSWORD = os.getenv('IZONE_EMAIL_HOST_PASSWORD', 'Bdfgfdfgg')  # 这个不是邮箱密码，而是授权码
 EMAIL_PORT = os.getenv('IZONE_EMAIL_PORT', 465)  # 由于阿里云的25端口打不开，所以必须使用SSL然后改用465端口
 EMAIL_TIMEOUT = 5
 # 是否使用了SSL 或者TLS，为了用465端口，要使用这个
